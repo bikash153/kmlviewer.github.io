@@ -1,0 +1,3643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Binika.kml</name>
+	<Style id="sn_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_square">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.77273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin40">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_donut">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_placemark_circle0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_square">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_square</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_square</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_square">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin01">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl02">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin400">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_donut">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight0">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="ms_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_square_highlight10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_donut">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_donut</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_donut</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_placemark_circle_highlight">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0100">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl01">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0010">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_placemark_square_highlight10">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>INTAKE &amp; PUMP HOUSE</name>
+		<Placemark>
+			<name>BHRAMARPALI PUMP HOUSE</name>
+			<description>1 NO OF 5HP MOTOR
+
+UGR - 5 LAKH (PROPSED)
+ESR - 1.5 LAKH (PROPSED)</description>
+			<LookAt>
+				<longitude>83.8040444455353</longitude>
+				<latitude>20.97612223144683</latitude>
+				<altitude>0</altitude>
+				<heading>0.009120060106549041</heading>
+				<tilt>30.00045637304917</tilt>
+				<range>101.5501872092549</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_donut</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.8040243999008,20.97606604357696,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PAPAKSHYA GHATT INTAKE</name>
+			<description>5 MOTOR
+               2 NO OF 40HP MOTOR (KIRLOSKAR)
+              2 NO OF 25HP MOTOR (JYOTI)
+              1 NO OF UNDER WATER 62HP MOTOR(KSB)
+DIA OF INTAKE WELL - 6m
+DEPTH OF INTAKE WELL - 16m</description>
+			<LookAt>
+				<longitude>83.81794200181731</longitude>
+				<latitude>20.99734068521432</latitude>
+				<altitude>0</altitude>
+				<heading>-23.2972124483015</heading>
+				<tilt>17.82263059875082</tilt>
+				<range>118.7710117544017</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#ms_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81815767236753,20.99768687123708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WTP PUMP HOUSE</name>
+			<description>UGR - 3 LAKH (2013)
+UGR - 1 LAKH (2013)
+OHSR -  1.5 LAKH(2013) ( HEIGHT - 20M)
+UGR -  10 LAKH ( PROPOSED )
+
+
+2 MOTOR
+               1 NO OF 40HP MOTOR
+               1 NO OF 30HP MOTOR</description>
+			<LookAt>
+				<longitude>83.81043387714192</longitude>
+				<latitude>21.020345625856</latitude>
+				<altitude>0</altitude>
+				<heading>-23.28320414588067</heading>
+				<tilt>19.00553952231121</tilt>
+				<range>162.4918515132565</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_square</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81012381872868,21.0206603474584,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SISU MANDIR PUMP HOUSE</name>
+			<description>UGR - 1.5 LAKH (2013)
+UGR - 5 LAKH (PROPOSED)
+     
+                2NO OF 20HP MOTOR</description>
+			<LookAt>
+				<longitude>83.79942231047002</longitude>
+				<latitude>21.02641935261447</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002315797541002818</heading>
+				<tilt>32.78521530046429</tilt>
+				<range>218.4735684169686</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_donut</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.79984819077514,21.02620448593277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JOGESWAR PUMP HOUSE</name>
+			<description>UGR - 0.50 LAKH (2013)
+UGR - 5 LAKH (PROPOSED)
+        
+                2 MOTOR
+                1 NO OF 15HP MOTOR
+                1 NO OF 25 HP MOTOR</description>
+			<LookAt>
+				<longitude>83.80472736998416</longitude>
+				<latitude>21.03647632569214</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001834571607329892</heading>
+				<tilt>25.10817921103725</tilt>
+				<range>355.6783686846588</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_donut</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.804305998001,21.03624626602551,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>RAW PIPE LINE</name>
+		<Placemark>
+			<name>DI 200mm</name>
+			<description>Raw line from intake</description>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81815224825721,20.99767616250282,0 83.81817543559028,20.99742333455947,0 83.81804916380831,20.99752508316204,0 83.81756753127328,20.99799426543067,0 83.81742558379128,20.99807407200794,0 83.8171069816344,20.99811002062273,0 83.81679432288612,20.9981138584403,0 83.8161910255409,20.99808230024012,0 83.81591860745343,20.99816761605645,0 83.81578627305757,20.99833046956685,0 83.81575140351991,20.99853926884713,0 83.81575663792496,20.99881019351184,0 83.81582189993537,20.99942646560851,0 83.81601850789635,21.00053776444021,0 83.81603930886899,21.0012987918649,0 83.81587238118168,21.00218394662803,0 83.81579291841581,21.00280007097667,0 83.81561870807064,21.00339780827366,0 83.81539946994077,21.00406774619377,0 83.81529967688769,21.00457229527459,0 83.81523735003262,21.00495592448561,0 83.81511456077909,21.00522408299286,0 83.81486231434032,21.00559166830784,0 83.81471347347291,21.00576365060815,0 83.81413396366702,21.00630521153111,0 83.81343891490165,21.00688364192137,0 83.81295210383956,21.00731366108545,0 83.81265634549258,21.00766470926712,0 83.8124799146448,21.00788380384926,0 83.81228796961089,21.00823998865491,0 83.81219236612749,21.0086505749172,0 83.81225213905293,21.0090985258317,0 83.81237312106805,21.00959156166253,0 83.81255976293805,21.01002180169843,0 83.81276784485243,21.01078630480608,0 83.81248514081301,21.0125255876786,0 83.81225588480254,21.01416572824082,0 83.81191157063907,21.01621011306166,0 83.81148001424751,21.01848879664445,0 83.81115034025093,21.02027331352608,0 83.81095783931902,21.02008273543514,0 83.81077264101167,21.01994387897125,0 83.81062420270506,21.01981911542156,0 83.8104566787455,21.01983917987276,0 83.81025428201001,21.01991154281544,0 83.81027753880819,21.02011266766955,0 83.81029521440094,21.02029434134743,0 83.81029062565673,21.02055801845605,0 83.81024112954009,21.02078009602007,0 83.80998775498855,21.02072025935638,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>LOADING PIPE LINE</name>
+		<Placemark>
+			<name>DI 200mm</name>
+			<description>Loading line from WTP TO SISHU MANDIR PUMP</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8101395546843,21.02066916012944,0 83.81022457430535,21.02067707310288,0 83.81024270867067,21.02054827799072,0 83.81024430327716,21.02038316673453,0 83.81023152418646,21.02018969168413,0 83.81021122574762,21.01998342901036,0 83.81021580062395,21.01988136850676,0 83.81035866378471,21.01980289494453,0 83.81061158536166,21.01974859706456,0 83.81070394660917,21.01981275595136,0 83.8112426495811,21.02023995508702,0 83.81111719807316,21.02102214252686,0 83.81084273328345,21.0229451157527,0 83.81067171003767,21.02402677866759,0 83.81058883321694,21.02449780795217,0 83.81015466468428,21.02448690959417,0 83.80857516784745,21.02463764018051,0 83.80774105007828,21.02469479987154,0 83.80659588040132,21.02487058012359,0 83.80568467718295,21.02499944048482,0 83.80513538028336,21.02497638838046,0 83.80446073904295,21.025118166223,0 83.80403429879249,21.02529113100278,0 83.80350003126175,21.02538749150674,0 83.8029500316761,21.02548456653112,0 83.80174525080878,21.02577832365241,0 83.80065641875593,21.02592388555129,0 83.79957106571754,21.02610025450422,0 83.79968006294818,21.02626118570388,0 83.79988597110358,21.02616733593074,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<description>Loading line from WTP TO JOGEWAR PUMP HOUSE</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8105084095936,21.02447989104691,0 83.81038864918757,21.02552299057625,0 83.80984644701348,21.03015260576725,0 83.80955495953015,21.03171050472898,0 83.80787724628931,21.03323881727087,0 83.80681796071863,21.03418647603293,0 83.80441314261866,21.03634986060397,0 83.80433993381041,21.03628804010246,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>SUPPLY LINE</name>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8110861603201,21.02101549130006,0 83.81110310527768,21.02101510927176,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81137460255106,21.01941067255241,0 83.81182226381473,21.01944473262955,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81194421000471,21.01619608287067,0 83.81218822546974,21.01623463785296,0 83.81220217572563,21.01626297313697,0 83.81226211541052,21.01628747791785,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79711514661068,21.04668014560375,0 83.79695287674382,21.04674768144085,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79761660819574,21.04681792485409,0 83.79785523126105,21.04675349507678,0 83.7978672191793,21.04679676368237,0 83.79788547357532,21.04685309193637,0 83.79792522461092,21.04686560747782,0 83.79802561026881,21.04686216139235,0 83.79803758327073,21.04691720976002,0 83.79803206730217,21.04701174362469,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from jogeswar pump house to Danipali</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79831258334316,21.04197461543503,0 83.79799607958851,21.04230483044278,0 83.79727802257634,21.04296332526391,0 83.79682309617266,21.04339134541578,0 83.79644114445077,21.04372567841829,0 83.79530780134642,21.04478873840901,0 83.79418247174523,21.04603848517965,0 83.79209436756902,21.04833579437242,0 83.79044438207241,21.05011311305992,0 83.78969203729415,21.05084945889271,0 83.78898521463785,21.05137851954215,0 83.78907624906626,21.05154583806272,0 83.78910925849185,21.05181025249022,0 83.7891067697205,21.05209661018638,0 83.78929827549582,21.05337936441868,0 83.78924361644222,21.05355930419827,0 83.78914481302498,21.05373160741533,0 83.7891360288975,21.05393167659859,0 83.78871656689289,21.05394516378673,0 83.78838176372001,21.0539658830959,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.78838657254087,21.0539701372144,0 83.78840547053254,21.05419642731731,0 83.78843352779927,21.05432215038721,0 83.78844855530077,21.05436073651634,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.78867820803005,21.05395369329815,0 83.78873448144654,21.05422999089391,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.7891370560633,21.053926095161,0 83.78951179934781,21.05389824789954,0 83.78966297247891,21.05397129676279,0 83.78974789640159,21.05401251249816,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from jogeswar pump house to davala harijan sahi</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79487495426601,21.04526656185131,0 83.79524588683992,21.04537580391507,0 83.79578117928003,21.0454231295394,0 83.79609993260054,21.04544196294069,0 83.79654192164431,21.04544000231279,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79609163436717,21.04543797256851,0 83.79604568564359,21.04568840836764,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin210</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79371395318714,21.04655532150037,0 83.79365411517777,21.04642887839769,0 83.79364650965101,21.04628150415425,0 83.79368605931109,21.04538098009973,0 83.79375332701063,21.04496645910019,0 83.79376491762848,21.04480037411852,0 83.79373880276648,21.04442817121693,0 83.7937465944086,21.04408667841257,0 83.79383171836572,21.04400393728442,0 83.7938953966008,21.04392928200896,0 83.79387961820312,21.04385733959726,0 83.79383066473129,21.04380145219543,0 83.79367530558216,21.04375644557614,0 83.79340725311695,21.04374969017146,0 83.79300358348281,21.043729092061,0 83.79262751319554,21.04350286517252,0 83.79236353642898,21.04336500480676,0 83.79226765337999,21.0433002118373,0 83.79227258987478,21.04322143026728,0 83.79245283871857,21.04278729392665,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<description>from Jogeswar pump house to Gulapada</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80431658498895,21.03630031238217,0 83.80440759072185,21.03638693405111,0 83.80415793157727,21.03659952246985,0 83.80388418233085,21.03683461383332,0 83.80335922296312,21.03728943999882,0 83.80285742430675,21.03775496473085,0 83.80249373387427,21.03808253481202,0 83.80195262147714,21.03851837193725,0 83.80143326096493,21.03901143328968,0 83.80111652908784,21.03933356333586,0 83.80183279424875,21.04058100160507,0 83.80223050486173,21.04123512737074,0 83.80254894305979,21.04186218775419,0 83.80289573076479,21.04266303577159,0 83.80305316826042,21.04296504233255,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin210</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80243483959258,21.04164079546235,0 83.80266554474343,21.0415732069533,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin210</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80221344493843,21.04120718212453,0 83.802053764669,21.0413127603081,0 83.80177653234348,21.04141184442876,0 83.80155672673882,21.04143995115342,0 83.80111624819313,21.0414363750232,0 83.80057503200166,21.04139250086804,0 83.80016934032759,21.04131726285638,0 83.79979941295471,21.04124576726379,0 83.79930683801933,21.0411141591656,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin210</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80221374117302,21.04120269328683,0 83.80256364298516,21.04090467760258,0 83.80288965462961,21.04057747259484,0 83.80317296210571,21.04033207055982,0 83.80367235954766,21.04004683300101,0 83.80418243002069,21.03980417369062,0 83.80432429435227,21.03980750665863,0 83.80440352228149,21.03985022904101,0 83.80447096095045,21.03989097353279,0 83.80455711385561,21.03993768439503,0 83.80467801994637,21.03977975582498,0 83.80480485718807,21.03966681251313,0 83.80491311744143,21.03958766012834,0 83.8049241153268,21.03958331300777,0 83.80502174991192,21.03953949331096,0 83.80517596758311,21.03951059491553,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from jogeswar pump house to gulapada</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80433205328471,21.03630286028429,0 83.80442011447433,21.03637229115181,0 83.80454843505231,21.0362644055987,0 83.804777806438,21.03606983690576,0 83.80485750582349,21.03633374862034,0 83.80497792909978,21.0365208386758,0 83.80514334961462,21.03669347427094,0 83.8054400823797,21.03692525454058,0 83.80583774819803,21.03706090843174,0 83.80614418595378,21.03707931456214,0 83.80658092036484,21.03710920082125,0 83.80690725970409,21.03718050769999,0 83.80701312778238,21.03727797555793,0 83.80709915846396,21.03742966772547,0 83.8072893655648,21.03799351208533,0 83.80731943847977,21.03819454911729,0 83.8072983962432,21.03838625790995,0 83.80746096432655,21.0384836321239,0 83.80753449546256,21.03855215125668,0 83.80760451765268,21.03865493690767,0 83.80779974732167,21.03894472875811,0 83.80795415913514,21.03923459345969,0 83.80818977337954,21.03984320500832,0 83.8084031340979,21.03978822900474,0 83.8088798030881,21.03956889055133,0 83.80933312558996,21.03946446559073,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80933021599704,21.03946233143693,0 83.80935043814962,21.03954588769615,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80932820311384,21.03946415935209,0 83.8094386992308,21.0394477045296,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80819318501258,21.0398403804375,0 83.80820036034548,21.03989456200964,0 83.808233402965,21.03999064421922,0 83.80828018190545,21.04010569029556,0 83.80844529029956,21.04042721606149,0 83.80855850413846,21.04057575281437,0 83.80867490107711,21.04065905269045,0 83.80885398203399,21.04072421619383,0 83.80906691986389,21.04080176279072,0 83.80925579420784,21.04088039015386,0 83.80940234564498,21.04090802625976,0 83.80955952441786,21.04093150478202,0 83.80974741935881,21.04094140688177,0 83.80989622989429,21.04094733987628,0 83.81000936670583,21.04097064598061,0 83.81003860513421,21.0410042808631,0 83.81005254129235,21.04106559428412,0 83.81004852353274,21.04114597645877,0 83.81004928131534,21.04127759757984,0 83.81006900965835,21.0414787217936,0 83.81009589900913,21.04158917567417,0 83.81013218794597,21.04168241462588,0 83.81019640477034,21.0417856125616,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80917667148007,21.04085093355142,0 83.80919081495557,21.04121756906329,0 83.80921813400072,21.04164703402319,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80921658936643,21.04164809052191,0 83.8091542940839,21.04171181580048,0 83.80904119719386,21.04173561868452,0 83.80898052908553,21.04173349044615,0 83.80894486380463,21.04174140187037,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8092042267121,21.04140418703515,0 83.80900823180609,21.04143485019313,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80867911350968,21.04065448025978,0 83.80873705373013,21.0410901303075,0 83.80866519487637,21.04118164716688,0 83.80855162102915,21.04119577144056,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80456226847168,21.03994182719989,0 83.8048850865102,21.04011855848584,0 83.8051162289661,21.04021713773798,0 83.80538054463256,21.04021485812365,0 83.80583317904512,21.04009969044289,0 83.8062820505571,21.03999705558931,0 83.80661442092386,21.03993571964109,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80484508219608,21.04009795336365,0 83.80470228758347,21.04036546883021,0 83.80468651151122,21.04049939358367,0 83.8047154955794,21.040692512261,0 83.80475313367975,21.04094102895626,0 83.80477103558704,21.04109380877771,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80584169536911,21.04009583948053,0 83.80591793476246,21.04040464889065,0 83.80591576809385,21.0405437187591,0 83.8058855902929,21.04069718679616,0 83.80588061415742,21.04078046535379,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80591965512862,21.04041212547397,0 83.80640168572012,21.04032814862949,0 83.80671356050735,21.04024838851013,0 83.80661326403683,21.03994067862549,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80640372828161,21.04032329677004,0 83.80644042760053,21.04064209634901,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8066122057615,21.0399343628342,0 83.80658146026191,21.03980036193638,0 83.8065932665445,21.03969726058208,0 83.80664185079358,21.03956540440333,0 83.80667153111048,21.03942699640323,0 83.80666379655477,21.03929655976829,0 83.8066684859678,21.03918707346238,0 83.80670976913669,21.03910176802723,0 83.8068317499755,21.03899981342726,0 83.80702661262822,21.03886180700795,0 83.80718683850543,21.03863821199555,0 83.80727378511737,21.03845194939361,0 83.80728702294675,21.03842408797445,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80666884209744,21.03942983462553,0 83.80694902630992,21.03937899761819,0 83.8071710733532,21.03930313442914,0 83.80738202678727,21.03921435810131,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8067014025923,21.04024784786197,0 83.80675741414905,21.04036865872144,0 83.80679405783691,21.04042400309249,0 83.80685761514628,21.04043383057329,0 83.80693757109154,21.04040940256287,0 83.80702843117277,21.04040451044578,0 83.80714032202415,21.0403939113353,0 83.80737473254153,21.04042995569209,0 83.80757864301836,21.04050019728578,0 83.80783700131583,21.04052646608872,0 83.80815920421543,21.04049572913019,0 83.80845457502512,21.04043415492875,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81200688851921,21.01579900421714,0 83.81250899960075,21.01585536961995,0 83.81308898504616,21.01588252336868,0 83.81371469003837,21.01590343349798,0 83.81386572926115,21.01572861564804,0 83.81393444204804,21.01557886140923,0 83.81394056929203,21.01557379314999,0 83.81414080134088,21.01528410636937,0 83.81428461358838,21.0152952658407,0 83.81472154490518,21.01540320099807,0 83.81468632397005,21.01555154403265,0 83.81457622754574,21.01573555503392,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81471404905881,21.01540105682627,0 83.81468607326413,21.01520114089727,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81371960453475,21.01590163210265,0 83.81377061169255,21.01599402498807,0 83.81377108722371,21.01609038116618,0 83.81376538913979,21.01619505252808,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<description>from WTP to college square traffic</description>
+			<styleUrl>#msn_ylw-pushpin21</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81014246788013,21.02069673375398,0 83.81024290273307,21.02072204320174,0 83.81026954871658,21.02051684709938,0 83.81026458044408,21.020242765384,0 83.81022959260272,21.01991918949502,0 83.8103421770042,21.01983527852643,0 83.81049946724637,21.01979294358123,0 83.81060298049658,21.01977914490095,0 83.81116797720667,21.02024190699133,0 83.81110569096043,21.02057840293737,0 83.81105726435609,21.02082881128602,0 83.81104346482043,21.02112769090141,0 83.81090920396593,21.02198931356982,0 83.81055835055854,21.02395541859,0 83.8102916493452,21.02625392702186,0 83.81016016270046,21.0275643035798,0 83.80993811803744,21.02928546244432,0 83.80957494241326,21.03167079381675,0 83.80694210640843,21.03402476059525,0 83.80670122032568,21.03425208096612,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 300mm</name>
+			<description>from WTP to hero motors ( deepak motors )</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81013760592553,21.0207148902804,0 83.81026096222475,21.02074435364982,0 83.8102988388143,21.02058828182686,0 83.81030474024951,21.02033756431716,0 83.81029681187539,21.02015519050904,0 83.81026650647939,21.01991693591952,0 83.81040353138242,21.01986947745775,0 83.81066382812828,21.01979735819931,0 83.81123176192945,21.02024615723135,0 83.8110770748861,21.0211672363326,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 200mm</name>
+			<description>from wtp to college square traffic</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81107695374062,21.0211644985985,0 83.81105216087944,21.0213413111785,0 83.81089662152516,21.02241852893532,0 83.81043344130428,21.02532993075673,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81043479719952,21.02532902739459,0 83.81038382981325,21.02575628018917,0 83.81005691755351,21.02849143694075,0 83.80958400851291,21.03172696458515,0 83.80703236076202,21.03404203251873,0 83.80673437852285,21.03430584060101,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 250mm</name>
+			<description>from WTP pump house to Parbati rice mill</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81013654319199,21.02068460808027,0 83.81021926002123,21.02068993151972,0 83.81022990768659,21.02054552043646,0 83.81022132652927,21.02030901823229,0 83.81019423130218,21.01998421158001,0 83.81019800933335,21.01987442267498,0 83.81034947180299,21.01979658432463,0 83.81058094508091,21.01972967668546,0 83.80678991342019,21.01692490866888,0 83.80183158198241,21.01308094884228,0 83.79910107231095,21.01091628487573,0 83.79881967448169,21.0104935561631,0 83.79870738564567,21.01010119267861,0 83.79865579158407,21.00956431956981,0 83.79838548941414,21.0063375794804,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81060318544759,21.01977794135932,0 83.80918733182254,21.01874960205175,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 200mm</name>
+			<description>from Parbati rice mill to Urley</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79838324086134,21.00634351133242,0 83.79936526634577,21.00615812409548,0 83.79939786108311,21.00616507822886,0 83.80010728843878,21.00595720929552,0 83.80037309478561,21.00569763390368,0 83.80051744340429,21.00550996482118,0 83.80052913838348,21.00519749377079,0 83.80051743768233,21.00520001357974,0 83.80045705546318,21.00469934052529,0 83.80031970787117,21.00410256449156,0 83.80028147700176,21.00383087689012,0 83.80041197098592,21.00351503969601,0 83.80076482499769,21.00322064124968,0 83.80117093665503,21.00294966168821,0 83.80204534693321,21.00247293231953,0 83.80194792830135,21.00190045485288,0 83.80182216810995,21.00129452741687,0 83.80174143628187,21.00084841648861,0 83.80170724464189,21.00048313658368,0 83.8016237243521,21.00029525730088,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<description>from Hanuman chock to Barol budha temple</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80163070074181,21.00030729150125,0 83.80149368552162,20.99921554195503,0 83.80150730796329,20.99712734524863,0 83.8016431907939,20.99570799071758,0 83.80173608754461,20.99550900785995,0 83.80175234436676,20.99506803576087,0 83.80175298708832,20.99461397533572,0 83.80204655041749,20.99420149505664,0 83.80206767601089,20.9941849950737,0 83.8024198252934,20.99423540460351,0 83.80265886268627,20.99398198373193,0 83.80315177865182,20.99318121371699,0 83.80328347783852,20.99163217519871,0 83.80356993686313,20.99043536583846,0 83.80356809274929,20.98923250626425,0 83.80371237688131,20.98850608637928,0 83.8038783257029,20.98769146564113,0 83.8041836017578,20.98570611593446,0 83.80448965335405,20.98451240905752,0 83.80561386590834,20.98165896650834,0 83.80580071381321,20.98057464637137,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from Barol budha temple to Bhramarpali</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80580030086566,20.98057481042351,0 83.80593606305969,20.98028577850531,0 83.80597905165088,20.97953623872496,0 83.80600518678661,20.97841390842291,0 83.80609222004509,20.97806763086113,0 83.80599093164754,20.97686785638208,0 83.80605258942505,20.97636569164847,0 83.80613595224267,20.97571262386121,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80276523567905,20.99380977913657,0 83.80277130291023,20.99381159819981,0 83.80295982211625,20.99385050607594,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80315217779057,20.99317186421403,0 83.80336032275494,20.99315177793453,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80580310690495,20.98057725233277,0 83.80597820669291,20.98060027586056,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8059713488244,20.97959109750423,0 83.80618445390506,20.97957581571096,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80596908125027,20.97963187125585,0 83.80577736769507,20.97964264127447,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80600257301229,20.97876124103943,0 83.80616298944074,20.97876689799788,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80599860227122,20.97866390857913,0 83.80627112918992,20.97863400409438,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8060783134576,20.97790144932643,0 83.80595815151777,20.97790487953036,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80607674517051,20.97784067224436,0 83.80623489621479,20.97781808194904,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80604505846475,20.97753838504746,0 83.80604464273453,20.97754354831018,0 83.80636834058022,20.97755530893894,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80599406558095,20.97687820880028,0 83.80510974900174,20.97650525488823,0 83.80474856472782,20.97633505748922,0 83.80367084708166,20.97546634674572,0 83.80211360675379,20.9742060989547,0 83.80018465429674,20.97263909829378,0 83.79896940612691,20.97181391038263,0 83.79694151508052,20.97067051026202,0 83.79687784964756,20.97195853799828,0 83.79689896081777,20.97328357293269,0 83.79745033129664,20.97330926919959,0 83.79743721970291,20.97394370577054,0 83.79735365731361,20.97397196903466,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80404409918124,20.97606972909945,0 83.80422955866987,20.97591342556397,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79957338731575,20.97222791736361,0 83.79952178346366,20.97234901040981,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Di 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79945848688672,20.97214336671135,0 83.79978984945174,20.97165523950359,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79926875650276,20.97201599892242,0 83.79943008260447,20.97172631092813,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<description>from hero motors to Rahila</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81108445357121,21.02101699225477,0 83.81116074874757,21.02057612423964,0 83.81124231171947,21.02013061579526,0 83.81154555686133,21.01844897686977,0 83.81173278483925,21.01736853510791,0 83.8118550921378,21.01675451601436,0 83.81201100774705,21.01578063432503,0 83.81213617113272,21.01512438772094,0 83.81218014625861,21.01483729917286,0 83.81238743169604,21.01376855507251,0 83.81257434571724,21.0123975387978,0 83.8128263323626,21.01068387725235,0 83.81265584094632,21.01013334093341,0 83.81244298706085,21.00961476597502,0 83.81242573096681,21.00960715429601,0 83.81229748245271,21.00905666381936,0 83.81225915937047,21.00859552184387,0 83.81235295605708,21.0082251963646,0 83.81257612992532,21.00780930063154,0 83.8126966857653,21.00767816117336,0 83.81290935295145,21.00742823599179,0 83.81313293960008,21.00720556085893,0 83.81377795952234,21.00666699213454,0 83.81414389343898,21.00636371495224,0 83.81466605202803,21.00590820984941,0 83.81499859317759,21.00549339569449,0 83.81520232360492,21.00517753334719,0 83.81529386848867,21.00486359151932,0 83.81536440252889,21.00446402529196,0 83.81544571740635,21.00410140040488,0 83.81566257803809,21.00346141140918,0 83.81585395528214,21.00279081044943,0 83.81591219692328,21.00255899460921,0 83.81601196958404,21.00195771908082,0 83.81604370891478,21.00145324415321,0 83.81605704693375,21.00084962178028,0 83.81603623621218,21.00035592309329,0 83.81594692092003,20.99984099908187,0 83.81587064527611,20.99915709768722,0 83.81580555152813,20.99873478741983,0 83.81579980212408,20.9984625862649,0 83.81590510267257,20.99823053521711,0 83.81605337591986,20.99816284024134,0 83.81618247097842,20.99811677306894,0 83.8163192716432,20.99776778129339,0 83.81668353524333,20.99611645353428,0 83.81668891626275,20.99610146375051,0 83.8169383264936,20.99451878456273,0 83.81696882333414,20.99408056146013,0 83.81696497498545,20.99351212822392,0 83.81703246052336,20.99290375558903,0 83.81717304614885,20.99155803081974,0 83.81752578752898,20.99141046905158,0 83.81768684400699,20.99103539243988,0 83.81771144156794,20.99048953916917,0 83.81772454859103,20.99005505781332,0 83.81810776877435,20.98940267533245,0 83.81838331575898,20.98864191867636,0 83.81847319267186,20.98837032493342,0 83.81849246662924,20.98816842506649,0 83.81851073944264,20.98796766303841,0 83.81844223369829,20.98745901837562,0 83.81840782462636,20.98681966771026,0 83.81826522720655,20.98636500554716,0 83.818061479599,20.98617924127995,0 83.81803211221855,20.98587987079785,0 83.81791212156092,20.98485167815774,0 83.81759438055937,20.98400848273479,0 83.81725356019081,20.98331039671008,0 83.81700027967371,20.98282344605192,0 83.81689195987619,20.98260589737185,0 83.81677138553988,20.98188632301057,0 83.81671720972105,20.98114118748551,0 83.8166408338506,20.98056289639076,0 83.81659339773802,20.98011585334389,0 83.81659347929329,20.97981905200123,0 83.81657292228167,20.97953860519324,0 83.81644978682188,20.9792218581118,0 83.81635248255768,20.97905318794579,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81250559003446,21.00783302669064,0 83.80917211285711,21.00774158280387,0 83.80912643894371,21.00773208195272,0 83.80691058813346,21.00805448903622,0 83.80600968025436,21.00808777314661,0 83.80483091818444,21.00619276825524,0 83.80362642158259,21.00475053662776,0 83.80345655390883,21.00440064093643,0 83.80319925911398,21.00435163365634,0 83.80309900185928,21.00426308853571,0 83.80304900921614,21.00411212688478,0 83.80302653759425,21.00387593801458,0 83.80300403549163,21.00365840665194,0 83.80296099369434,21.00337120100927,0 83.80290771165403,21.00319512587142,0 83.80283108015264,21.00301876021607,0 83.80272065100071,21.00280408479703,0 83.80260760263191,21.00267529970323,0 83.80248253851285,21.0026100670755,0 83.8022996728107,21.00256706523611,0 83.8020409084196,21.00246890741369,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80017712476892,21.00591999844367,0 83.80061972646885,21.00622437576068,0 83.80132911139522,21.00630268345892,0 83.80137351937287,21.00631653771219,0 83.80245784447895,21.00632825417858,0 83.80248205659842,21.00632874917588,0 83.80383938268979,21.00630865315508,0 83.80478903469965,21.00617501327349,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8041521740883,21.00536409617594,0 83.80432558403548,21.0052968119425,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8042688217532,21.00532046667819,0 83.80421069663102,21.00520593241038,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80361730238999,21.00473335595869,0 83.80386875904296,21.00474743671731,0 83.80398170950508,21.00469764142773,0 83.80417369117833,21.00463023701884,0 83.80441621445483,21.00458583282212,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80409556481689,21.00465799700449,0 83.80412172119003,21.00476353098641,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80389989022619,21.00473450703696,0 83.80385514771586,21.00451621319509,0 83.80395196059112,21.00450559153413,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80359893979953,21.00470322835448,0 83.80335063978553,21.00476397705022,0 83.80302328649604,21.00479362669325,0 83.80302335132502,21.00492988898222,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80343594810674,21.00474441209278,0 83.80346806294543,21.00504325569339,0 83.80319219285305,21.0050757309971,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80328225107647,21.00436653051604,0 83.80324097925298,21.00453648929477,0 83.80317339589857,21.00459722761488,0 83.80317114384361,21.00478044361418,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80348580147927,21.004468356575,0 83.80357096933798,21.00438628238379,0 83.80361195777421,21.00429592263861,0 83.8037180987542,21.00431090017952,0 83.80383399329365,21.00430277599995,0 83.80397486446145,21.00426370065604,0 83.80394847964443,21.00418008382434,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80360999609502,21.00429530042458,0 83.80346753365808,21.00421321653548,0 83.80355594182629,21.00406823939066,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80248366666267,21.00260971711968,0 83.80243160821567,21.00228952679064,0 83.80240405463691,21.00198621030743,0 83.80270917590295,21.00197492023041,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80244291623787,21.00236799039401,0 83.80272451641105,21.00233651690138,0 83.80270855934164,21.00216071699015,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81256174450751,21.00783699149585,0 83.81282268625154,21.00797966759314,0 83.81316994937393,21.00815357267212,0 83.81349297855759,21.00827804332282,0 83.81388442867747,21.00828434929159,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81620602617265,20.99805138928613,0 83.81636655399245,20.9980679535761,0 83.81676365063826,20.99808244774043,0 83.81703022100977,20.99808712175254,0 83.81726822154718,20.99807354398576,0 83.81741175135154,20.99805064666094,0 83.81754553339725,20.99797465943843,0 83.81771495133263,20.99782193030988,0 83.81791805349673,20.9976214010717,0 83.81803339665296,20.99751231148067,0 83.81782251702454,20.9961857721427,0 83.8166898565749,20.99610574371544,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81693260956811,20.99808521390458,0 83.81694762416927,20.99765785145356,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81803439723241,20.99750994604129,0 83.81830933324866,20.9973171139459,0 83.81831344518632,20.99731455855477,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81842403476959,20.98851328905127,0 83.8181666611046,20.98848516541819,0 83.81819400011798,20.98835316402135,0 83.81808086741023,20.98834553899857,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81846906479558,20.98765501404005,0 83.81826849465045,20.98767078025234,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81805398939125,20.98606546036536,0 83.81776212209344,20.98611179115115,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81802395498205,20.985814197082,0 83.81776337261911,20.98583030961525,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81658152036317,20.97971369083966,0 83.81681588364602,20.97966500622605,0 83.81703831891799,20.97998072106535,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81681828784131,20.97966456175658,0 83.81688495508439,20.97955806945101,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 200mm</name>
+			<description>electric office chock to Dandasenapada</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81038887483099,21.02538595987503,0 83.81088372901992,21.02543376633152,0 83.8109944423492,21.02520972464891,0 83.81107154035996,21.025129040363,0 83.81147504998729,21.02527415039452,0 83.81155524708393,21.02522477095308,0 83.81219981260803,21.02531867287631,0 83.812383562336,21.02532565935707,0 83.81324437016399,21.02534672462876,0 83.81318937012919,21.02548043951824,0 83.81301709801527,21.02576381181034,0 83.81288370712696,21.02600408096831,0 83.81283277273565,21.02619103151723,0 83.81281420379759,21.02664879586549,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81280760577059,21.02664307438589,0 83.81281554031489,21.02724909768844,0 83.81282021875643,21.02755916527901,0 83.81279139561991,21.02791611022318,0 83.81278062993889,21.02838316861084,0 83.81279192063761,21.02938014843937,0 83.81262959979844,21.03058991353645,0 83.81246190346126,21.03069777934468,0 83.81218433632355,21.03071064401576,0 83.81213266202178,21.03091580392076,0 83.81199125832546,21.03107722008878,0 83.81153407447479,21.03109240595095,0 83.81118867333036,21.03111899631887,0 83.81059292631518,21.03122957503687,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81084895516159,21.02542549820842,0 83.81089954469742,21.02619686518993,0 83.81100535743637,21.02757984567206,0 83.81095823634799,21.02859081054288,0 83.81090919969026,21.02922317858722,0 83.81062424013595,21.03011385757057,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81319909802936,21.02546717495784,0 83.81310547007249,21.02549820901878,0 83.81296161869297,21.02549717177392,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81283829595309,21.02617143462932,0 83.81259484372099,21.02616443337686,0 83.8125853479964,21.02606468011699,0 83.81264134928135,21.02600317033548,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81212430030124,21.02615534731641,0 83.81259380915863,21.02616286752287,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81212656183034,21.02615749781437,0 83.81213584142223,21.02603422326474,0 83.81216242165021,21.02599112804988,0 83.8122017802979,21.02594203103204,0 83.81223690332173,21.02592115967934,0 83.81228583443769,21.02590359738049,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81212687417577,21.02615604666991,0 83.81183896469184,21.02612666884823,0 83.81155252447496,21.02615945122,0 83.81089701389131,21.0261965875732,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>daily market road</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81155205220479,21.02615508233297,0 83.8117565320109,21.0266266402859,0 83.81190719811993,21.0269961336155,0 83.81208951964837,21.02747171547174,0 83.81225151939525,21.02786313466133,0 83.81236991168961,21.02821834060281,0 83.812367173372,21.02867560967465,0 83.8123572288181,21.02893974231352,0 83.81236716766391,21.02936989379768,0 83.81224575400061,21.03022809519705,0 83.81218644989981,21.03070910471707,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81281993389389,21.02662126687935,0 83.81265976005091,21.02661952986205,0 83.81235997887281,21.02662279097506,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81280683901964,21.02677750367091,0 83.81309359768993,21.0267975713318,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81281539128388,21.02734446198675,0 83.81208725233022,21.02748044585503,0 83.81152647885001,21.02756775496637,0 83.8110019042181,21.02758231328373,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81096580553339,21.02841752175289,0 83.81135589565912,21.02837246260138,0 83.8114470823119,21.02834208199034,0 83.81148894031692,21.02827246070519,0 83.8115271403082,21.02756157078927,0 83.81152598978257,21.02743667475758,0 83.81150884861155,21.02731952020206,0 83.81149465432102,21.027156863486,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81236587350054,21.02837934377308,0 83.81278343632948,21.02838058743012,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81236273544535,21.02927477492534,0 83.81178078456009,21.02925092287203,0 83.8109083739994,21.02923010345102,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81156602018227,21.02923696295338,0 83.81157494819742,21.02949264063028,0 83.81176609416539,21.02958430145866,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81200669416963,21.02926206079812,0 83.81200571811212,21.02953840795002,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81181681685709,21.02925149242911,0 83.81182354828978,21.02887856681939,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81145127088149,21.02924812049969,0 83.81146385426412,21.02883773820283,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81098072440425,21.02814585573002,0 83.81127959660833,21.02817041216822,0 83.81132285837782,21.02816546446658,0 83.81131543206556,21.02814203662984,0 83.81139806132464,21.0281250534086,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81278781418187,21.02915987518344,0 83.81263879962519,21.0291560536714,0 83.8125848986934,21.02915816051084,0 83.81252240202728,21.02913701655776,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81278445489386,21.02894912506885,0 83.81263000085541,21.02896194457431,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8127858304604,21.02887049206574,0 83.81311679359429,21.02886065480783,0 83.81311276472834,21.02879659674785,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81278611760206,21.0281575967041,0 83.81258043731322,21.02816005480568,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81278760565426,21.0280074069461,0 83.81298539348741,21.02800407856403,0 83.81302909344855,21.02799610229436,0 83.81303629985285,21.02796870020604,0 83.81321054116128,21.02797370610178,0 83.81322039257751,21.02786977294386,0 83.81318519528226,21.02775020267358,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81282111001629,21.02751495012473,0 83.81292176428708,21.02751825183733,0 83.81305231080047,21.02752253903901,0 83.81309334795175,21.02751611488918,0 83.81313548598858,21.02749714562318,0 83.81324061905259,21.02742548241629,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81281344877279,21.02710259880104,0 83.81291655923022,21.02709233870792,0 83.81304381849435,21.02707371668936,0 83.81320715518488,21.02706747467543,0 83.81335989452307,21.02707253335174,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81308013264635,21.02707355476897,0 83.81306500889309,21.02697330868725,0 83.81307614640906,21.02688003549861,0 83.81308851952184,21.0267976017465,0 83.81309163437834,21.02670850798727,0 83.81321785500668,21.02670969900259,0 83.81329677525932,21.02673002588069,0 83.81336155815839,21.026740209072,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from college square traffic to children park</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80676100511774,21.0342861841464,0 83.80849738704239,21.03487466990492,0 83.8100482752872,21.03537386706661,0 83.81227528951953,21.03546362226166,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81009994811947,21.03536187706773,0 83.81036671191309,21.03421843120743,0 83.81036637369286,21.03422139298383,0 83.81069334844526,21.03295024583152,0 83.81072704606413,21.03259637156233,0 83.81070799938946,21.03216307299057,0 83.81060100165539,21.03124043747023,0 83.81049469918997,21.03063613463432,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81049463351185,21.03065328624358,0 83.81014904682272,21.03100927327416,0 83.81002180482351,21.03118992749469,0 83.80996209587707,21.03130246955787,0 83.80995556336748,21.03143066256557,0 83.80995366630216,21.03155271889926,0 83.81023450734645,21.03162396611708,0 83.81023647745693,21.03162934091701,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81071603386104,21.03216068164371,0 83.81127429808923,21.03224881313933,0 83.8118951014628,21.03230564077128,0 83.81238935859335,21.03240919769535,0 83.81240346023912,21.0324130870909,0 83.81255117026248,21.03247729821585,0 83.81259931235434,21.03255513154926,0 83.81257848696607,21.03264974696848,0 83.81256881152294,21.03269489910036,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81066981819471,21.03183942312411,0 83.8104150950183,21.03188837407386,0 83.81027236143306,21.03188141362151,0 83.81016238046877,21.03190476432718,0 83.81011383233184,21.03190377967602,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8106498569924,21.03168158130623,0 83.81021317194136,21.03173972688375,0 83.81018179155339,21.03174433385439,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from womens college to block office road</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80938280433983,21.03191279887484,0 83.81024846493933,21.03223526918199,0 83.81071057004965,21.03235518997668,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81015057686945,21.03219640764279,0 83.81007207945927,21.03241163690042,0 83.80998643073586,21.03243990185113,0 83.80992184310266,21.0324751697092,0 83.80991751391056,21.03248158941449,0 83.8099044395787,21.03251580942828,0 83.80989786912409,21.03252669203236,0 83.80986895776097,21.032587346991,0 83.80986669001972,21.0325941191989,0 83.80980903411269,21.03281290603681,0 83.80979691799294,21.03296626401034,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81057227294913,21.03345096121303,0 83.81034029437957,21.03344093102528,0 83.81023751744729,21.03340163867075,0 83.81008392808667,21.03333838759584,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81043634027931,21.03390111368704,0 83.81080445625352,21.03396646970436,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81036652528444,21.03418775012777,0 83.80994222857161,21.03408632627751,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81004140089263,21.03411702379303,0 83.8101108703631,21.03386048490554,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81028997677959,21.03451189834665,0 83.81076243745787,21.03459328600324,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8100922277105,21.03536082642497,0 83.81000259442217,21.03580234621068,0 83.81005254053714,21.03590749202791,0 83.8102029471,21.03594086573468,0 83.81041581631733,21.03598947522514,0 83.81044745327259,21.036008736718,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81008811216374,21.02821097485015,0 83.80976761608477,21.0281891111272,0 83.80968030709263,21.0281718664674,0 83.8096006674792,21.02806892283306,0 83.80960081709893,21.0280661052887,0 83.8095248989994,21.02795012315923,0 83.80951976864213,21.02795012734673,0 83.80948702135265,21.02790708719975,0 83.80948017847176,21.02789642175022,0 83.80947061882227,21.02788845093123,0 83.80946382613701,21.02787785146099,0 83.80944452607666,21.02786700989006,0 83.80941781364949,21.02782928082347,0 83.80941845052044,21.0278215644059,0 83.80940965399935,21.02780631730423,0 83.80940339170375,21.02779114957927,0 83.80940114119113,21.02775844540482,0 83.80939636670601,21.02775598417498,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81060991780606,21.02420565548982,0 83.81129860976517,21.02426971912185,0 83.81165649125786,21.02427461797746,0 83.8116428639169,21.0246990358116,0 83.81161379679173,21.02487909725215,0 83.81159409728247,21.02504084993654,0 83.81157356042188,21.02521159200786,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81165272822275,21.02428080563577,0 83.81170082833287,21.02425034229092,0 83.81171968816187,21.02424289224555,0 83.81175740701401,21.02422458282988,0 83.81182263322924,21.02420230328916,0 83.81183205563168,21.02419488181436,0 83.81185206624788,21.02413963546237,0 83.81194395749763,21.02324671220772,0 83.81160970042581,21.02323647410319,0 83.81156251242301,21.02319129823358,0 83.81157782080423,21.02288297922977,0 83.8116385091874,21.02259847175848,0 83.81170092089215,21.02238759432865,0 83.81164713102029,21.02235036716353,0 83.81089183194759,21.02239610766876,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81134304601879,21.02236872510754,0 83.81130310198398,21.02280829384432,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81157030605938,21.02296138017132,0 83.81139077480867,21.02297009083336,0 83.81137322945304,21.02297039504303,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8116470207176,21.0223484205528,0 83.81166845760983,21.02222601847983,0 83.81163818888032,21.02212839932795,0 83.81167318961242,21.02180647016191,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81131074815841,21.02426517962439,0 83.81137669816202,21.02338662544372,0 83.81141946992756,21.02334116426134,0 83.81145156576778,21.02324700813393,0 83.81157710073714,21.02320285177389,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81146995253843,21.0232402484892,0 83.81146194236661,21.02317214227142,0 83.8113940636209,21.02315308880042,0 83.81122285040664,21.02314135065575,0 83.81078163107382,21.02312183632796,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8113678272581,21.02355864064272,0 83.81117068041522,21.02354154046542,0 83.81116650872106,21.0236354782391,0 83.81101228051547,21.0236371773512,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8116085044322,21.02426598213016,0 83.81162787505463,21.02410188815211,0 83.81164529706288,21.02397383230175,0 83.81171859722159,21.02398311400695,0 83.81171728577408,21.02390064533751,0 83.81187660861985,21.02390600096109,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81190113139351,21.02368605644394,0 83.81169230132305,21.02368489594133,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81117911044448,21.0242540648711,0 83.81107264614498,21.02512895377667,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81126036602396,21.02519212734262,0 83.81127808274223,21.02495970939012,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81140874334747,21.02524871334835,0 83.81141833299765,21.02567288768176,0 83.81146555446792,21.02594342403836,0 83.81155503673236,21.02616578219221,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81133964131899,21.02383508304312,0 83.81120036338352,21.02382717258959,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8113417759278,21.02388799861949,0 83.81119442680436,21.02388453146605,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from college square traffic to Gobinda battle shop</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80670691206056,21.03424231799795,0 83.80659440389056,21.0342099689626,0 83.80658899879471,21.03420892388839,0 83.80658179143687,21.03420753036605,0 83.80656902818572,21.03420530882979,0 83.80631016014181,21.03423442900977,0 83.80534886635395,21.03444566361183,0 83.80350473673636,21.03474602849012,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81213004901548,21.02141175625747,0 83.81212968977992,21.02141415699829,0 83.81207891049921,21.02185493431502,0 83.81208321948895,21.02186330436562,0 83.81208753932424,21.02187169522331,0 83.81211033005326,21.0220185342525,0 83.81213302208758,21.02221244017787,0 83.81212679962943,21.0223946816388,0 83.81211392691542,21.02253951636194,0 83.81198807331972,21.02258438050594,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81211583721563,21.02253657713586,0 83.8124147097966,21.02259570688922,0 83.81239995102671,21.02273741768029,0 83.81238218548123,21.02283540400838,0 83.81238191931506,21.02283955992604,0 83.81238015874413,21.022846482804,0 83.81237970941775,21.02285345831636,0 83.81237783980993,21.02286186353004,0 83.81237756380916,21.02286609162789,0 83.81238344702572,21.02298593007461,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81211511118828,21.02200873479856,0 83.81229823402315,21.02203044035866,0 83.81233898275957,21.02202906098601,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81212218445064,21.02215311281633,0 83.81237390765824,21.02215675133287,0 83.81244272140673,21.02217273941233,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81212620615787,21.02231563933196,0 83.81250055854893,21.02231648059497,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81348162363889,21.02157938689727,0 83.81390059237009,21.02165888791297,0 83.81393071495545,21.02168309056587,0 83.81393026164095,21.02169198224361,0 83.81393785804897,21.02172166960072,0 83.81391878464675,21.02178202753265,0 83.8137460864645,21.0219928844024,0 83.81366949479064,21.02227584799665,0 83.81358626452608,21.02287003307884,0 83.81352943624054,21.02300606532403,0 83.81343930456912,21.02314618867418,0 83.81321398231673,21.02342847598115,0 83.81315943361956,21.02347647794372,0 83.81302683578654,21.02366604996169,0 83.81301720248575,21.02385277854123,0 83.81305435046971,21.0240628561871,0 83.81312802819863,21.02427971966047,0 83.81323008273205,21.02450897344312,0 83.81327172266614,21.02467981938177,0 83.81327606451089,21.02501258805666,0 83.81323687800429,21.02532099751824,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81291826309005,21.02151105774366,0 83.81293207062757,21.02182170727729,0 83.81295255921994,21.02225945308033,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81294001611346,21.02199560165867,0 83.81280519378032,21.02219847049697,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81347971202815,21.02157595192117,0 83.81347918366204,21.02158295035217,0 83.81341389840175,21.02188324000577,0 83.81335867543339,21.02220906201902,0 83.81337695924425,21.02236697643405,0 83.81344613362705,21.02241053896062,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81323409793332,21.0228637603373,0 83.81341442270079,21.02247698013748,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81327146945243,21.0233503360196,0 83.81301269059303,21.02319356221628,0 83.81292571087536,21.02335534840237,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81307311355349,21.02359930801327,0 83.81294324363681,21.02355475160385,0 83.81281561351126,21.02350257299532,0 83.81272365705534,21.02345390077259,0 83.81272225105609,21.02345225471114,0 83.81257492398929,21.02331659526036,0 83.81254397422582,21.02322187542631,0 83.81254145702644,21.02321898257734,0 83.81255204022843,21.02314967933452,0 83.81254730917361,21.02310578324856,0 83.81254345128276,21.02310301077122,0 83.81251900552225,21.02307856330838,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81312249657068,21.02353243139228,0 83.81312558580102,21.02353498192744,0 83.81312868131222,21.02353753770207,0 83.81324944229607,21.02357581535887,0 83.81337641182152,21.02361951521661,0 83.81341636901266,21.02364089449257,0 83.81341876773897,21.02364647395141,0 83.81343547735528,21.0237062223773,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81305795810401,21.02405457345419,0 83.813411722105,21.02408569294709,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.813043398069,21.0236442831316,0 83.81309870681298,21.02364800193869,0 83.81327395782053,21.02365865432419,0 83.81327909757593,21.02365887934139,0 83.81331605103706,21.02366855623419,0 83.8133120830619,21.02369183398391,0 83.81331457644112,21.02376032345996,0 83.81327680385571,21.02376663322287,0 83.81326164066154,21.02384726449164,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81365078082588,21.02369478002823,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81331188179954,21.02375550190715,0 83.81355400717683,21.02381760634536,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81334054101414,21.0237701227189,0 83.81331628938599,21.02396410518763,0 83.81331615039485,21.02396757303834,0 83.81331194635314,21.02407422290497,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81309506559329,21.02415244650625,0 83.81278464744587,21.02419790527157,0 83.81253015477006,21.02419019807881,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81356791906953,21.0228976644352,0 83.81323027479139,21.0228608585598,0 83.81292158367604,21.02292676316861,0 83.81271085602907,21.02294390145013,0 83.81238832064926,21.02298659837,0 83.81226998589671,21.0230008948492,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from jogeswar pump house to Davala</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80430677671353,21.03631092882321,0 83.80437876517084,21.03638133406124,0 83.80380817343888,21.03687041972195,0 83.80343122731493,21.03719747037883,0 83.80325701751238,21.03734926061136,0 83.80285478224525,21.03772578723373,0 83.80270467131254,21.03786459536538,0 83.80250639181608,21.03804046055718,0 83.80217854349449,21.03830316313785,0 83.80191150726394,21.03852110086573,0 83.80174821306355,21.038668018121,0 83.80140808545777,21.0389930740657,0 83.80128232598017,21.03912030802377,0 83.80093170877302,21.03948208358892,0 83.8007621224251,21.03967602743167,0 83.80054445666758,21.03997196646256,0 83.80039405640186,21.04011200580138,0 83.79963579437711,21.04076246473287,0 83.79908741114177,21.04126566957577,0 83.79831315923487,21.04199339817402,0 83.79822094963707,21.04234556608481,0 83.79813154708123,21.04264009975793,0 83.79796676404507,21.04312455183738,0 83.79765556960059,21.04388368801869,0 83.79733534712682,21.04474170008018,0 83.79721802663292,21.04502318670092,0 83.79707706305989,21.0456931662267,0 83.79696789772284,21.04612357963299,0 83.79710827561489,21.04668580076914,0 83.79744580812152,21.0467165911679,0 83.79761582038026,21.04682224656385,0 83.79774224989166,21.04753158614497,0 83.79807682305687,21.04833374705517,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79700816838628,21.04597412588679,0 83.79745424770954,21.04594131652422,0 83.79759577217135,21.046236572695,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79771652902956,21.03275944445905,0 83.79769191138514,21.03289880334265,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79791362469325,21.0328071744951,0 83.79786505017881,21.03300949735025,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79704004822736,21.04643855207131,0 83.79746443333332,21.04640950441983,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79700190120127,21.04625809568804,0 83.79723267374986,21.0462462260143,0 83.79729210158935,21.04624311805993,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 200MM</name>
+			<description>from sishumandir pump house to Nuapali</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79980431298958,21.02623151065075,0 83.79963815002058,21.02629596749974,0 83.79950691846673,21.02610917316411,0 83.79918489181935,21.02623211149652,0 83.79898395931728,21.02629672103754,0 83.79875391740565,21.02634293154062,0 83.79859897509182,21.02634853928833,0 83.79849792987447,21.02630855859434,0 83.79838367447287,21.02614693152244,0 83.79829005228169,21.02596514884536,0 83.79820558261069,21.02581677546307,0 83.79820721431444,21.025817373773,0 83.79797961579625,21.02546128683171,0 83.79777018605084,21.02517306598407,0 83.79770346211423,21.02508420335642,0 83.79756486753624,21.02487359344742,0 83.79735163506288,21.02457669700823,0 83.79715919665917,21.02430295199248,0 83.79690430295159,21.02397316035542,0 83.79630843352007,21.02327319018793,0 83.79613891880715,21.02309093049147,0 83.79598193633042,21.02291998920157,0 83.79598248996548,21.02291867304029,0 83.7958031874836,21.02271393044793,0 83.7956273334985,21.02251380485534,0 83.79547705583559,21.02232608181187,0 83.79543939937446,21.02228952099147,0 83.79543483278411,21.0222867939395,0 83.7938697635871,21.02033896912308,0 83.79365736502572,21.02006972903015,0 83.79359756906989,21.02001355493632,0 83.79333530948263,21.0197837658086,0 83.79311027162206,21.019613645711,0 83.79290024684073,21.01944667751279,0 83.79275613979331,21.019335374997,0 83.79235451805391,21.01897111954715,0 83.79209823479911,21.01871482030339,0 83.79183721074043,21.01837245310542,0 83.79149764559534,21.01774630478885,0 83.79134227937166,21.01739751468924,0 83.79123357346427,21.0169302363827,0 83.79070431721586,21.01603998171521,0 83.79020764792683,21.01548264057141,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from sishu mandir pump house to Nuapali</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79980932124417,21.02625362298612,0 83.79963834972122,21.02630947120691,0 83.79951935747731,21.02616609703581,0 83.79923790241931,21.02628280993144,0 83.79892246781783,21.02637659944647,0 83.79874122854582,21.02641066476477,0 83.79860580293399,21.02641334796199,0 83.79850713287185,21.02639104711198,0 83.79840515030087,21.0263020970898,0 83.7983061689018,21.02613779026543,0 83.7981954693831,21.02593236051606,0 83.79801854618293,21.02564546900729,0 83.7978982205118,21.02545874817548,0 83.79741856691774,21.02477516582883,0 83.79701282168398,21.02421449457338,0 83.79638538693739,21.02345699485893,0 83.79596228263198,21.02299948429859,0 83.7956068180962,21.02258817234149,0 83.79546033267452,21.02240889124261,0 83.79531723177529,21.02224768884507,0 83.79484871501401,21.02169558806289,0 83.79395251944864,21.02057838566379,0 83.79362123807569,21.02011830554292,0 83.79343336942989,21.01994995905023,0 83.79284888111304,21.01947986265762,0 83.79215775379535,21.01887589988415,0 83.79172203371716,21.01830766923495,0 83.79148756563126,21.01784666800621,0 83.79127756119053,21.01742110983059,0 83.79120552475719,21.01702037831064,0 83.79084338278687,21.01641843376702,0 83.79066623623478,21.01612387193378,0 83.79161049567772,21.01583389681899,0 83.79221768738836,21.01564841391558,0 83.79341207593008,21.01528920718684,0 83.79371301511172,21.01513382192189,0 83.79387768610896,21.01498405760647,0 83.79402354323193,21.01464132002822,0 83.79408810351346,21.01454831773064,0 83.79411113964794,21.01446454434219,0 83.79407554151703,21.01433591086485,0 83.79401043310085,21.01418515562853,0 83.79390407725319,21.01397199451814,0 83.79390461377469,21.01396524859689,0 83.79384105078402,21.01378878475522,0 83.7937989592085,21.01356459070663,0 83.79380994284766,21.01335388097961,0 83.7938327877564,21.0131689952786,0 83.79380571918853,21.01298991245771,0 83.79375637058187,21.01286329196824,0 83.79375305600824,21.01285596975468,0 83.79372931441004,21.01272131095232,0 83.79377524751837,21.01256607977285,0 83.79381913794664,21.01238236458614,0 83.79383127087512,21.01219827565959,0 83.79372459746793,21.01175366159095,0 83.79354234993193,21.01061094582535,0 83.79343112742961,21.00967529949067,0 83.79336536179788,21.00832537395269,0 83.79343665530807,21.00809285685917,0 83.79341359676876,21.00768473557189,0 83.79334688551685,21.00746261352031,0 83.79323380243959,21.00724703956765,0 83.79309624479748,21.00689103226388,0 83.79299699696354,21.00646444426452,0 83.79232733916503,21.00649354111525,0 83.7919050061155,21.00655774392689,0 83.79131292663993,21.00679122568945,0 83.79090235802556,21.00697743977171,0 83.79089715287138,21.00698536241363,0 83.79066347301989,21.00707057851481,0 83.79036006365693,21.00711399130225,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 200mm</name>
+			<description>from Sishu mandir pump house to Parbati rice mill</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79070114320596,21.01603865410579,0 83.79115140437946,21.01589705368658,0 83.79194548277219,21.01567500663471,0 83.79292774957105,21.01535002683239,0 83.7933753256261,21.01523666556248,0 83.79354344035596,21.0151657050961,0 83.79367008095964,21.01508840474659,0 83.79379296719232,21.01498790240268,0 83.79383006313375,21.0149353794299,0 83.79387487051191,21.01477732101475,0 83.79394763701019,21.01462675730882,0 83.79400352592417,21.01455165249053,0 83.79403397396196,21.01449521683773,0 83.79404892615091,21.01442692071474,0 83.79400170877011,21.01430463781879,0 83.7939295036644,21.01417285874041,0 83.79380538443658,21.01389644148386,0 83.79376635538351,21.01377228252268,0 83.7937420355958,21.01360769359017,0 83.79373254848895,21.01338099374798,0 83.79375019472009,21.01330153619403,0 83.7937596981114,21.01317614883537,0 83.79375463506435,21.01308188288775,0 83.79368963677921,21.0129054248214,0 83.79365931832341,21.01277034620959,0 83.79365504084079,21.01271266568017,0 83.79369329348623,21.01258563338921,0 83.79375776833002,21.01232742593846,0 83.79375907782956,21.0122156783361,0 83.79372881910261,21.01209089824992,0 83.7936594586665,21.01174622551431,0 83.79361739588032,21.01143858303032,0 83.79355626499532,21.01106344776224,0 83.79350235570767,21.01074990747173,0 83.7934508729971,21.0103913772948,0 83.79341954745472,21.01008840136723,0 83.79336964355136,21.00974166931265,0 83.7933477728984,21.00941086981008,0 83.79330065675556,21.00834518213754,0 83.79334014345511,21.00819534723574,0 83.79337383273294,21.00807654187842,0 83.79336382167021,21.0079016644045,0 83.79334162889744,21.00768020570227,0 83.79329333314168,21.00751725733349,0 83.79321001570571,21.00733892990641,0 83.79313537104534,21.00717972583565,0 83.79300644415211,21.0067922335007,0 83.79291437023275,21.00640562666625,0 83.79349036504294,21.00628472814901,0 83.79511302567643,21.00610420761179,0 83.79561229346777,21.0060597148979,0 83.7964468858835,21.00590738133643,0 83.79715967746452,21.00578670357619,0 83.79774356738955,21.00569746760542,0 83.79791667955389,21.00567792934073,0 83.79818294353599,21.00573571309557,0 83.79819022498552,21.00573597517694,0 83.79836441504412,21.00580366235292,0 83.79838451253342,21.0063337146458,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<description>from Sishu mandir pump house to Parbati rice mill</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79298822231939,21.00646105619384,0 83.793458338094,21.00635445145573,0 83.79426732261473,21.00623763572719,0 83.79510838278667,21.00616547257984,0 83.79603392746796,21.00605814434229,0 83.79698443619436,21.00586918367549,0 83.7978187197603,21.00575118164899,0 83.79809513691123,21.00576741841543,0 83.79829918799643,21.00584192273431,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.7979376425323,21.02550474953123,0 83.79810817166936,21.02537476567852,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79810042206753,21.02538433791632,0 83.79861407093783,21.02536806101251,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79810622310589,21.02538335037832,0 83.79809311100904,21.02521987795852,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79671686688144,21.02404348482438,0 83.79776000180456,21.02349890716063,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79327195948544,21.01978561383684,0 83.79380701780673,21.01926455394135,0 83.79443811390838,21.01945523957942,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79249808977443,21.01905845566282,0 83.79333748989373,21.01865086932485,0 83.7940420852949,21.01859228640957,0 83.79471097153652,21.01848090340473,0 83.79472225043969,21.01859897159526,0 83.79470128029858,21.01835986142452,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.7907391264413,21.01609926797373,0 83.79043550673924,21.01618806355332,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79390720985478,21.01486924831798,0 83.79435535367078,21.01483929233791,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79408939403275,21.01446482764225,0 83.7943528643557,21.01444610168677,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79400488328525,21.01419264353941,0 83.79366629182188,21.0142870126997,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<description>from  jagannath temple chock to Palilpada</description>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8110608068834,21.02128146251231,0 83.81347797723969,21.02157580613802,0 83.813578562429,21.02122370754224,0 83.81367688719939,21.02106724191723,0 83.81383018752048,21.02092366361651,0 83.81401819362884,21.02080260059283,0 83.81411323304899,21.02068537322219,0 83.81418090571393,21.02048963375968,0 83.81427012397415,21.02003406111853,0 83.81444581876836,21.01956276659852,0 83.81467783862227,21.01900624076498,0 83.81475594370967,21.018637912001,0 83.81474504943975,21.01832920605402,0 83.81477196774104,21.01795983431095,0 83.81486544805364,21.0172445599715,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81352381709098,21.02145319137046,0 83.81335788032064,21.02142877396946,0 83.81331112829045,21.02141552584875,0 83.81328128089788,21.0214097113025,0 83.81323282334512,21.0214230458886,0 83.81321689855226,21.02144390992952,0 83.81314949577582,21.02153811433707,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81357659808006,21.02133731406639,0 83.81373857138614,21.0213460990476,0 83.81379363485405,21.02126727787545,0 83.81388188529014,21.02129707505022,0 83.81392668659358,21.02118916902019,0 83.81401277829619,21.02120968825757,0 83.81406904596359,21.02115769219444,0 83.81406394778317,21.02106974248232,0 83.81400086686469,21.02081611292888,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81444868385991,21.01955512387593,0 83.81423311912535,21.01950203890079,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81458109837297,21.01918412775223,0 83.81471345425717,21.01921821259992,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81477968698655,21.01795984767438,0 83.81416035023997,21.01792431299635,0 83.81387891592975,21.01798487769432,0 83.81369353831357,21.01797872818467,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81479719276759,21.01782207027327,0 83.81492798459691,21.01784763776902,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81114567581977,21.02035056510291,0 83.81051246207186,21.02025935759274,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81110543097027,21.02057618544805,0 83.81051045737412,21.02051189823322,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81108121265837,21.02068711294247,0 83.81049586505613,21.02061634371977,0 83.8104385045833,21.02060419428642,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81105480278539,21.02082113023541,0 83.81034926483068,21.02074381873816,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81082855620052,21.02240673337073,0 83.81051557568387,21.02241471669235,0 83.81048723217766,21.02243783424678,0 83.81051834908735,21.02253978149029,0 83.81058394543055,21.02255141013337,0 83.81061794698974,21.02255222466368,0 83.81072419201453,21.02255490565267,0 83.81075393698802,21.02255565621306,0 83.81077288804416,21.02256209410938,0 83.8108072184539,21.02255104136934,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81057098113527,21.02389065062361,0 83.80991643310004,21.02387331715268,0 83.80933417289108,21.02383231144582,0 83.80874181828476,21.02389286438715,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81009777479076,21.02331334750202,0 83.80973000518567,21.0233004906718,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81010198734488,21.02387924302215,0 83.81010045524005,21.02331335059693,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81010421814383,21.02345084751095,0 83.80941555213056,21.02348488706441,0 83.80941514116076,21.02282943974773,0 83.81017732997536,21.02282553536537,0 83.8107477442738,21.02291052845104,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80942102008017,21.023472038272,0 83.80909468405385,21.02348342948951,0 83.80912856976857,21.02284162750246,0 83.80941514116076,21.02282943973557,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80923951825599,21.02283749880861,0 83.80926130942206,21.02240315200357,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80989301178201,21.0228293225168,0 83.80988342808345,21.02300517422615,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81017484624266,21.02282825683895,0 83.8101487834432,21.02311115863359,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81046240348886,21.02440197646978,0 83.80848374027946,21.02455466182769,0 83.8057158462527,21.02497577340906,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80572444757064,21.02496761741979,0 83.80565248671599,21.02403428409505,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80591914890553,21.02494360485221,0 83.80600730443444,21.02584490415981,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8064284631876,21.02486468171086,0 83.80642452666041,21.02525459012996,0 83.80649019843402,21.0257530350584,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80727621934469,21.02472853465265,0 83.80720033672785,21.02429494451869,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80652252463241,21.02484781445034,0 83.80645576521808,21.02443974994488,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 150mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.81033028405557,21.02574475514592,0 83.80822456516506,21.02588932459826,0 83.80746800581643,21.02586392992013,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80761801745069,21.03351362217215,0 83.80719491607026,21.03224558635781,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.7969030934305,20.97147763103555,0 83.79672047812575,20.97140073341482,0 83.79650238923554,20.97120268861894,0 83.79556701375381,20.97036426252027,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79649432122893,20.97119630768064,0 83.7965778579017,20.97110269641724,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79688240671496,20.97198525843373,0 83.79618808242166,20.97185987174105,0 83.79611003442463,20.97235038736937,0 83.79609397688871,20.97247260718116,0 83.79649167905316,20.97252602456269,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79618640607593,20.97186365789959,0 83.79623861891594,20.97169526010012,0 83.796278249688,20.9716090395543,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.7968920387237,20.97258662939764,0 83.79689635065499,20.97258360161624,0 83.7974617768303,20.9725713784782,0 83.79747114595882,20.97282182360236,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin40</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79744974565931,20.97330795712668,0 83.79745261917091,20.97325987236608,0 83.79778808339128,20.97328351364536,0 83.79780360255425,20.97320466282378,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin21</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79986897104978,21.02626954654696,0 83.79973776567114,21.02633718923272,0 83.79985348232937,21.02647525405479,0 83.7999931972824,21.02667802401368,0 83.80019464254609,21.02694284472056,0 83.80046256453522,21.02725996144103,0 83.80060467149944,21.02736512226266,0 83.80084637243264,21.02754687238493,0 83.80121189684415,21.02792309534965,0 83.8014872907607,21.02829827650779,0 83.80178698487728,21.02890245651391,0 83.80192826006041,21.02916320721113,0 83.80225620741332,21.02967650227183,0 83.80262770933797,21.03015551065568,0 83.80297098896989,21.03052833840722,0 83.80309928807517,21.03070077682343,0 83.8031844620027,21.03103092122224,0 83.8032141270191,21.03128545060959,0 83.80317901783425,21.03145416688735,0 83.80307245548541,21.03156222792387,0 83.80293459229216,21.03165689541464,0 83.80283016922952,21.03184905963967,0 83.80275800164455,21.03227823163281,0 83.802720810244,21.03265382204237,0 83.8026993289922,21.03300235462953,0 83.80270570914627,21.03324110715656,0 83.80274576781939,21.03351812664604,0 83.80305584996783,21.03463697601172,0 83.80325030014964,21.03465013914635,0 83.80342520293952,21.03481526796047,0 83.80260607272585,21.03488333316245,0 83.80175701101336,21.03491609645485,0 83.80073650842304,21.03494872453152,0 83.79985767400899,21.03498079770705,0 83.79766749953376,21.03473690663236,0 83.79459872400379,21.03434357948028,0 83.79431352701408,21.03440714866937,0 83.79406387848128,21.03459987382159,0 83.79287853165704,21.03610894973584,0 83.79269351054691,21.03644372545112,0 83.79268896719704,21.03708725750028,0 83.79284827329049,21.03787008468958,0 83.79342687869874,21.03787105549459,0 83.79391815202649,21.03793101400935,0 83.79400000367171,21.03814514375651,0 83.79397878757896,21.03840989123143,0 83.79386229909812,21.03861333230981,0 83.79369820725098,21.03877783104216,0 83.79351784154969,21.03892619956999,0 83.79354894885776,21.03921346693537,0 83.7935920851202,21.03943727268583,0 83.79362393592729,21.03967596765494,0 83.79369793212024,21.04009145424622,0 83.79373567562318,21.04039121694626,0 83.79375233768232,21.04046966800428,0 83.79375869260147,21.04050532590812,0 83.79378896289961,21.04065738303595,0 83.79370092323012,21.04070236985453,0 83.7936401073315,21.04073292622492,0 83.79364741127733,21.04081391771349,0 83.79368319317888,21.04087569454184,0 83.7934552528732,21.04102413886359,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79399559952456,21.0382613946396,0 83.7942017883922,21.03820731330735,0 83.79443431078585,21.03814286573448,0 83.79461814250689,21.03812299773156,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79283997943912,21.03786908112211,0 83.79278923418636,21.03828976492958,0 83.79279536473862,21.03828786324586,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79284412773121,21.03787416246557,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>150mm DI</name>
+			<styleUrl>#msn_ylw-pushpin21</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79985970060399,21.02621165320953,0 83.79961495611569,21.02629708056605,0 83.79992521301908,21.02670032212362,0 83.80043852335324,21.02733161693841,0 83.80071683442796,21.02750929185138,0 83.80096685905315,21.02773351484861,0 83.80119768656442,21.02799667905754,0 83.80145085694669,21.0283863800249,0 83.80179153379427,21.02908146235312,0 83.8022824783485,21.02982756601487,0 83.80301168593965,21.03068478609557,0 83.80312344505373,21.03102720084044,0 83.80313785942508,21.03135977299862,0 83.80305494134436,21.0314934295607,0 83.80287107120456,21.03164001319944,0 83.80275688507092,21.03186374738551,0 83.80262921372189,21.03316955284437,0 83.80269051999561,21.03360441801477,0 83.80299448133584,21.03463608387324,0 83.80267011544612,21.03459174948505,0 83.80196154681506,21.03433534612175,0 83.80112697978932,21.03407176747961,0 83.80031336385534,21.03372993344214,0 83.79849083497416,21.03276758934991,0 83.79781346455978,21.03251082120761,0 83.7965603989223,21.03221635679638,0 83.79589689596409,21.03198584759262,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79659088191954,21.0322200751471,0 83.79657692205555,21.03232324196632,0 83.79660163109047,21.03244046925612,0 83.7967084299096,21.03249336755693,0 83.79713443265993,21.03259878627899,0 83.79749267082104,21.03271527781616,0 83.797905746883,21.03280352931829,0 83.79814167990342,21.03290205178357,0 83.79838206922319,21.03307265889975,0 83.79880687382749,21.03340275652083,0 83.79927231762581,21.03363304886627,0 83.79989678466957,21.03380168480171,0 83.80030001639928,21.03389355836385,0 83.80030267981896,21.03389280881283,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80275977891974,21.03187081377004,0 83.80233014738735,21.03156168005217,0 83.80198740006232,21.03131641929672,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80228327105738,21.03291865408515,0 83.80248438294332,21.03289325447005,0 83.80265543226184,21.03287567894684,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.8021590973257,21.03310443527604,0 83.80264792550152,21.03301407334668,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>100mm DI</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.80222749470158,21.03320258228394,0 83.80263177602941,21.03311524047824,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>DI 100mm</name>
+			<styleUrl>#msn_ylw-pushpin21</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					83.79594781848282,21.04542775274647,0 83.79595119200553,21.04514810101459,0 83.79594465489124,21.04514817905019,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>SV</name>
+		<Placemark>
+			<name>SV 200mm</name>
+			<description>SV 200mm</description>
+			<LookAt>
+				<longitude>83.81341251332215</longitude>
+				<latitude>21.02535753614842</latitude>
+				<altitude>0</altitude>
+				<heading>71.92857228399215</heading>
+				<tilt>43.32164178029777</tilt>
+				<range>74.75056461328727</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81323120950246,21.02534492900989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV PAPAKSHYA GHATT PUMP HOUSE</name>
+			<description>2 NO OF SV 300mm
+ 3 NO OF SV 200mm
+ 1 NO OF AV 200mm</description>
+			<LookAt>
+				<longitude>83.81821281546742</longitude>
+				<latitude>20.99757086576246</latitude>
+				<altitude>0</altitude>
+				<heading>1.8946146101848</heading>
+				<tilt>23.29328527831279</tilt>
+				<range>40.3054166885618</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81815542887196,20.99765878932287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 200mm</name>
+			<description>SV 200mm</description>
+			<LookAt>
+				<longitude>83.80204243502315</longitude>
+				<latitude>21.00260189282374</latitude>
+				<altitude>0</altitude>
+				<heading>71.93030964685644</heading>
+				<tilt>23.65554689069732</tilt>
+				<range>68.52775135240577</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80203876423123,21.00246881821615,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 150mm</name>
+			<description>SV 150mm</description>
+			<Camera>
+				<longitude>83.80524043638387</longitude>
+				<latitude>20.98020820004932</latitude>
+				<altitude>135.7028054030636</altitude>
+				<heading>69.68445532925274</heading>
+				<tilt>24.79167447792757</tilt>
+				<roll>1.272596451180172</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80582260904684,20.98050752722031,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AV 3 NO OF 100mm</name>
+			<description>3 NO OF AV 100mm</description>
+			<Camera>
+				<longitude>83.80398469325955</longitude>
+				<latitude>20.97587496005942</latitude>
+				<altitude>45.16673954571654</altitude>
+				<heading>69.4526894632416</heading>
+				<tilt>30.00002339417504</tilt>
+				<roll>1.068058686734284</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80422159354146,20.97591337622671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 150mm</name>
+			<description>SV 150mm</description>
+			<Camera>
+				<longitude>83.80520111442205</longitude>
+				<latitude>20.98227357703199</latitude>
+				<altitude>39.64593073551771</altitude>
+				<heading>69.60116937756879</heading>
+				<tilt>26.46189055108353</tilt>
+				<roll>1.199258131390343</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80532524742375,20.98238376438511,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 100mm</name>
+			<description>SV 100mm</description>
+			<Camera>
+				<longitude>83.7959309949569</longitude>
+				<latitude>20.9717178821703</latitude>
+				<altitude>49.01215472337783</altitude>
+				<heading>69.48015273105493</heading>
+				<tilt>29.49271370123403</tilt>
+				<roll>1.098977386483845</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.7961827284376,20.97185781527244,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 2 NO OF 150mm</name>
+			<description>2 NO OF SV 150mm</description>
+			<LookAt>
+				<longitude>83.81114899540997</longitude>
+				<latitude>21.02098746234877</latitude>
+				<altitude>0</altitude>
+				<heading>68.52316569129162</heading>
+				<tilt>28.51209985569708</tilt>
+				<range>54.16189111735633</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81108267536136,21.02101200330687,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 3000mm</name>
+			<description>SV 3000mm</description>
+			<LookAt>
+				<longitude>83.81113793211381</longitude>
+				<latitude>21.02100401997519</latitude>
+				<altitude>0</altitude>
+				<heading>68.5231507045588</heading>
+				<tilt>30.00017560275627</tilt>
+				<range>39.05964611067727</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81109994725958,21.02101395024519,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AV 150mm</name>
+			<description>AV 150mm</description>
+			<LookAt>
+				<longitude>83.80119054066611</longitude>
+				<latitude>21.03924371543179</latitude>
+				<altitude>0</altitude>
+				<heading>68.51959716379432</heading>
+				<tilt>30.00020481127179</tilt>
+				<range>44.70296272357354</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80127163018781,21.03916872440287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 100mm</name>
+			<description>SV 100mm</description>
+			<LookAt>
+				<longitude>83.7994602907205</longitude>
+				<latitude>21.0411474174969</latitude>
+				<altitude>0</altitude>
+				<heading>68.5198621541544</heading>
+				<tilt>46.97116658544687</tilt>
+				<range>62.45487233208317</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.79929663933808,21.04111123214474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 2 NO OF 100mm</name>
+			<description>2 NO OF SV 100mm</description>
+			<LookAt>
+				<longitude>83.80478517415219</longitude>
+				<latitude>21.03614644200426</latitude>
+				<altitude>0</altitude>
+				<heading>68.52164655373517</heading>
+				<tilt>36.20771188969399</tilt>
+				<range>50.41166963038864</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80477016105131,21.03606741221101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 150mm</name>
+			<description>SV 150mm</description>
+			<LookAt>
+				<longitude>83.80259589164012</longitude>
+				<latitude>21.04154308466669</latitude>
+				<altitude>0</altitude>
+				<heading>68.52061947355961</heading>
+				<tilt>31.30469290569177</tilt>
+				<range>92.98060037159202</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.8024286271915,21.04163542928497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 2NO OF 100mm</name>
+			<description>2NO OF SV 100mm</description>
+			<LookAt>
+				<longitude>83.80413362974552</longitude>
+				<latitude>20.97594412393831</latitude>
+				<altitude>0</altitude>
+				<heading>0.01437590650053622</heading>
+				<tilt>22.68745240347148</tilt>
+				<range>70.08233552336917</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80405078765379,20.97606150705014,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 200mm</name>
+			<description>SV 200mm</description>
+			<LookAt>
+				<longitude>83.81050576591923</longitude>
+				<latitude>21.02531084295275</latitude>
+				<altitude>0</altitude>
+				<heading>0.01280401118165283</heading>
+				<tilt>22.66442532055401</tilt>
+				<range>50.49543967076775</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81043073433726,21.02538585021345,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 150mm</name>
+			<description>SV 150mm</description>
+			<LookAt>
+				<longitude>83.80256673055051</longitude>
+				<latitude>21.00256577403983</latitude>
+				<altitude>0</altitude>
+				<heading>0.009019778591437181</heading>
+				<tilt>28.64527122990566</tilt>
+				<range>66.45229014773163</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.80248637012612,21.00260317956564,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 100mm</name>
+			<description>SV 100mm</description>
+			<LookAt>
+				<longitude>83.79769732860458</longitude>
+				<latitude>21.04700961296201</latitude>
+				<altitude>0</altitude>
+				<heading>0.01435797842813879</heading>
+				<tilt>16.70807115231388</tilt>
+				<range>72.31724115729418</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.79766435790636,21.04707573527825,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 200mm</name>
+			<description>SV 200mm</description>
+			<LookAt>
+				<longitude>83.81205715628515</longitude>
+				<latitude>21.02528441845533</latitude>
+				<altitude>0</altitude>
+				<heading>0.01584464898662357</heading>
+				<tilt>23.81757689008406</tilt>
+				<range>85.60559345886765</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81197046429652,21.02528016263778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 150mm</name>
+			<description>SV 150mm</description>
+			<LookAt>
+				<longitude>83.81313514351289</longitude>
+				<latitude>21.02545204126831</latitude>
+				<altitude>0</altitude>
+				<heading>0.01432494512731857</heading>
+				<tilt>29.80205085181327</tilt>
+				<range>107.9834408003047</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.81324055728714,21.02531259978275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SV 200mm</name>
+			<description>SV 200mm</description>
+			<LookAt>
+				<longitude>83.7985510455913</longitude>
+				<latitude>21.00608761911903</latitude>
+				<altitude>0</altitude>
+				<heading>0.009346291108982697</heading>
+				<tilt>26.4536396670139</tilt>
+				<range>125.1613744123985</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_placemark_circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>83.79839275543497,21.00632901151204,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

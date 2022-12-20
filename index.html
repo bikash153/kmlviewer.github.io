@@ -1,0 +1,626 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.15.1/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.15.1/build/ol.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+
+
+  
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container2 {
+  
+  /* width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #fcfcfc; */
+  position: absolute;
+    /* top: 25; */
+    z-index: 99999;
+    right: 10;
+}
+
+
+.card2 {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 600px;
+  height: 260px;
+  background-color: #ffffff;
+  padding: 10px 30px 40px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+.drop_box {
+  margin: 10px 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px dotted #a3a3a3;
+  border-radius: 5px;
+  height: 200px;
+  width: 500px;
+}
+
+.drop_box h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.drop_box p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #005af0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #005af0;
+  padding: 10px 20px;
+  border: none;
+  outline: 1px solid #010101;
+}
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+html, body, #map{
+    width:100%; height:100%;
+    overflow: hidden;
+}
+#map{
+    /* position:absolute;
+    z-index:1;
+    top:0; bottom:0; */
+}
+.ol-popup {
+    position: absolute;
+    min-width: 180px;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    bottom: 12px;
+    left: -50px;
+}
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+/* .ol-popup-closer:after {
+    content: "<i class='fa fa-window-close' aria-hidden='true'></i>";
+} */
+.imgheight{
+
+  height :45px; 
+  width: 46px;
+
+}
+.ol-popup {
+   position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    padding: 19px
+px
+;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    /* left: -50px; */
+    min-width: 394px;
+    height: 216px;
+      
+
+}
+.ol-popup table{
+    font-size: 0.7rem;
+}
+.ol-popup table th, .ol-popup table td{
+    padding: 0.2rem;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    .ol-popup:after, .ol-popup:before {
+        top: 100%;
+        border: solid transparent;
+
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .ol-popup:after {
+        border-top-color: white;
+        border-width: 10px;
+        left: 48px;
+        margin-left: -10px;
+    }
+
+    .ol-popup:before {
+        border-top-color: #cccccc;
+        border-width: 11px;
+        left: 48px;
+        margin-left: -11px;
+    }
+
+
+</style>
+</head>
+<body>
+  <div class="">
+    <nav class="navbar navbar-expand-lg navbar-light " style="z-index: 99999;background-color:#5fc3e5!important">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Demo Application</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+        </div>
+    </nav>
+</div>
+
+  <!-- <map section></map> -->
+  <div id="map" class="map" >
+  </div>
+<form id="measurementControlForm"  style="position: absolute; top: 66px; right: 44px;"  >
+				<select  id="type" class="select-text"  style="width:150px" >
+				<option value="none">Select KML</option>
+				<option value="KML1">Binika</option>
+				<option value="KML2">Sonepur</option>
+        <option value="KML3">Bolangir</option>
+				</select></form>
+        <form id="selectmapsdata"  style="position: absolute; top: 66px; right: 250px;"  >
+          <lebel style="color:#ccc;font-weight:bold;"> Select Maps</lebel>
+				<select  id="selectmaps" class="select-text"  >
+				<option value="0" selected>Google Satellite</option>
+				<option value="1">OSM</option>
+				<option value="2">Google Road Maps</option>
+        <option value="-1">No Maps</option>
+       
+				</select></form>
+   <!-- <map section></map> -->
+
+   
+       <div id="popup" class="ol-popup">
+            <a href="#" id="popup-closer" class="ol-popup-closer" ><i class='fa fa-window-close' aria-hidden='true'></i></a>
+            <div id="popup-content"></div>
+        </div>
+
+
+      
+
+  </div>
+  
+  
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+      <script type="text/javascript">
+          var tmppath;
+          var sourceKml;
+          var tableemployee;
+          var layertitle;
+          
+  //      const dropArea = document.querySelector(".drop_box"),
+  // button = dropArea.querySelector("button"),
+  // dragText = dropArea.querySelector("header"),
+  // input = dropArea.querySelector("input");
+let file;
+var filename;
+let dragAndDropInteraction;
+
+   $( document ).ready(function() {
+   $("#type").select2();
+     $("#selectmaps").select2();
+   
+});
+
+// button.onclick = () => {
+//   input.click();
+// };''
+
+  
+  var layerss=[];
+  
+var basemap = new ol.layer.Tile({
+    name: "Open Street Map",
+    source: new ol.source.OSM(),
+    crossOrigin: "anonymous",
+    title: "Open Street Map",
+    visible: false,
+  });
+    var googleLayerSatellite = new ol.layer.Tile({
+    title: "Google Satellite",
+    name: "Google satellite",
+    source: new ol.source.TileImage({
+      url: "http://mt1.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}&s=Ga",
+    }),
+    visible: true,
+  });
+  var googleLayerOnlyRoad = new ol.layer.Tile({
+    title: "Google Road without Building",
+    name: "Google Road without Building",
+    source: new ol.source.TileImage({
+      url: "http://mt0.google.com/vt/lyrs=r&x={x}&y={y}&z={z}",
+    }),
+    visible: false,
+  });
+  layerss.push(googleLayerSatellite)
+  layerss.push(basemap)
+  layerss.push(googleLayerOnlyRoad)
+var olMap = new ol.Map({
+          target: 'map',
+          layers: layerss,
+          view: new ol.View({
+            center: ol.proj.transform([85.21,20.35],'EPSG:4326','EPSG:3857'),
+            zoom: 7
+          })
+        });
+       var srcsource="";
+        var vectorSource2 = new ol.layer.Vector({
+      
+      map:olMap,
+  
+     
+    });
+ $("#type").change(function () {
+    
+    
+      addkmltomap(this.value);
+    
+
+  });
+  function addkmltomap(kmltype){
+  
+    if(kmltype=="KML1"){
+    srcsource= new ol.source.Vector({
+       url:'Binika.kml',
+          format: new ol.format.KML(),
+      })
+    }
+    if(kmltype=="KML2")
+    {
+      srcsource= new ol.source.Vector({
+       url:'sonepur.kml',
+          format: new ol.format.KML(),
+      })
+    }
+     if(kmltype=="KML3")
+    {
+      srcsource= new ol.source.Vector({
+       url:'Bolangir.kml',
+          format: new ol.format.KML(),
+      })
+    }
+    vectorSource2.setSource(srcsource);
+    
+
+      
+      vectorSource2.getSource().on("addfeature", function () {
+      //alert(geojson.getSource().getExtent());
+      olMap.getView().fit(srcsource.getExtent(), {
+        duration: 2000,
+        size: olMap.getSize(),
+      });
+    });
+    
+  }
+
+/**
+ * Popup
+ **/
+ var
+    container = document.getElementById('popup'),
+    content_element = document.getElementById('popup-content'),
+    closer = document.getElementById('popup-closer');
+
+closer.onclick = function() {
+    overlay.setPosition(undefined);
+    closer.blur();
+    return false;
+     olMap.removeInteraction(selectClick);
+};
+var overlay = new ol.Overlay({
+    element: container,
+    autoPan: true,
+    offset: [0, -10]
+});
+olMap.addOverlay(overlay);
+
+var fullscreen = new ol.control.FullScreen();
+olMap.addControl(fullscreen);
+
+
+function setInteraction() {
+  if (dragAndDropInteraction) {
+    olMap.removeInteraction(dragAndDropInteraction);
+  }
+  dragAndDropInteraction = new ol.interaction.DragAndDrop({
+    formatConstructors: [
+      ol.format.GeoJSON,
+      // GeoJSON,
+      // IGC,
+      // use constructed format to set options
+      new ol.format.KML({extractStyles: true}),
+     // TopoJSON,
+    ],
+    target:document.getElementById('uploaddiv')
+  });
+  dragAndDropInteraction.on('addfeatures', function (event) {
+    layertitle=event.file.name;
+    var drawstyle = new ol.style.Style({
+                        stroke: new ol.style.Stroke({ color: "#ffcc33", width: 5 }),
+                      });
+    const vectorSource = new ol.source.Vector({
+      features: event.features,
+    });
+    olMap.addLayer(
+      new ol.layer.Vector({
+        source: vectorSource,
+         style: drawstyle,
+      })
+    );
+    
+    olMap.getView().fit(vectorSource.getExtent(),{ duration: 1000});
+  });
+  olMap.addInteraction(dragAndDropInteraction);
+}
+
+
+// olMap.on('click', function(evt){
+//     var feature = olMap.forEachFeatureAtPixel(evt.pixel,
+//       function(feature, layer) {
+//         return feature;
+//       });
+//     if (feature) {
+//         var geometry = feature.getGeometry();
+//         var coord = geometry.getCoordinates();
+        
+//         var content = '<h3>' + feature.get('name') + '</h3>';
+//         content += '<h5>' + feature.get('description') + '</h5>';
+        
+//         content_element.innerHTML = content;
+//         overlay.setPosition(coord);
+        
+//         console.info(feature.getProperties());
+//         convertJsontoHtmlTable(feature.getProperties());
+//     }
+// });
+ var styles = {
+        
+        'LineString': new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'yellow',
+                width: 5
+            })
+        }),
+        'MultiLineString': new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'green',
+                width: 1
+            })
+        }),
+        'MultiPoint': new ol.style.Style({
+            image: new ol.style.Icon({
+                scale: .7, anchor: [0.5, 1],
+                src: 'images/marker.png'
+            })
+        }),
+        'MultiPolygon': new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'yellow',
+                width: 1
+            }),
+            fill: new ol.style.Fill({
+                color: 'rgba(255, 255, 0, 0.1)'
+            })
+        }),
+        'Polygon': new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'blue',
+                lineDash: [4],
+                width: 3
+            }),
+            fill: new ol.style.Fill({
+                color: 'rgba(0, 0, 255, 0.1)'
+            })
+        }),
+        'GeometryCollection': new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'magenta',
+                width: 2
+            }),
+            fill: new ol.style.Fill({
+                color: 'magenta'
+            }),
+            image: new ol.style.Circle({
+                radius: 10,
+                fill: null,
+                stroke: new ol.style.Stroke({
+                    color: 'magenta'
+                })
+            })
+        }),
+        'Point': new ol.style.Style({
+   
+           image: new ol.style.Circle({
+                radius: 10,
+                fill: new ol.style.Fill({
+                color: 'rgba(254, 255, 255, 0.1)'
+            }),
+                stroke: new ol.style.Stroke({
+                    color: 'magenta',
+                    width:5
+                })
+            })
+})
+
+    };
+//     var _myFill = new ol.style.Fill({
+//    color: 'rgba(255,255,255,1)'
+// });
+    var styleFunction = function (feature) {
+        return styles[feature.getGeometry().getType()];
+        
+
+    };
+var feature_onClick;
+var changedstyle;
+olMap.on('singleclick', function(evt) {
+    changedstyle="";
+    feature_onClick = olMap.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+        return feature;
+        
+      
+    
+      });
+
+  if (feature_onClick) {
+
+    overlay.setPosition(evt.coordinate);
+    var col = [];
+    var featurett=[];
+    featurett.push(feature_onClick.getProperties());
+		console.log(featurett);
+    var html = "<div class='card'><div class='card-header'>" + featurett[0].name +"</div><div class='card-body'><table class='table table-striped tableq' style='width:100%'>";
+    featurett.forEach(function(entry) {
+       // html += "<tr>";
+      // html +="<h3>Asset Details</h3>";
+        for (var k in entry){
+          if(k !="geometry" && k !="styleUrl")
+          {
+            html += "<tr><td>" + k + "</td><td>" + entry[k]+ "</td></tr>";
+          }
+        	
+        }
+       // html += "</tr>";
+    });
+    html += "</table></div></div>";
+    
+    content_element.innerHTML =html;
+     }
+     else{
+
+      overlay.setPosition(undefined);
+      closer.blur();
+      return false;
+     }
+});
+
+olMap.on("pointermove", function (e) {
+    var pixel = olMap.getEventPixel(e.originalEvent);
+    var hit = olMap.hasFeatureAtPixel(pixel);
+    olMap.getViewport().style.cursor = hit ? "pointer" : "";
+  });
+
+
+
+var selectInteraction = new ol.interaction.Select({
+  condition: function(evt) {
+    return evt.type === "singleclick";
+  },
+  style:function(feature, resolution){
+        var select_geom_name = feature.getGeometry().getType();
+        return styles[select_geom_name];
+    } 
+});
+
+olMap.addInteraction(selectInteraction);
+
+
+$("#selectmaps").on("change", function () {
+    var val = $(this).val();
+    if (val == "-1") {
+      basemap.setVisible(false);
+      googleLayerSatellite.setVisible(false);
+      googleLayerOnlyRoad.setVisible(false);
+    }
+  
+    googleLayerSatellite.setVisible(val == 0);
+   basemap.setVisible(val == 1);
+    googleLayerOnlyRoad.setVisible(val == 2);
+  });
+      </script>
+      <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</body>
+
+  </html>
